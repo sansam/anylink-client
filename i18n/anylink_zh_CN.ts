@@ -150,16 +150,6 @@
         <translation>帮助</translation>
     </message>
     <message>
-        <location line="+126"/>
-        <source>&lt;a href=&quot;https://github.com/tlslink/anylink-client/issues&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Getting Help&lt;/span&gt;&lt;/a&gt;</source>
-        <translation>&lt;a href=&quot;https://github.com/tlslink/anylink-client/issues&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;获取帮助&lt;/span&gt;&lt;/a&gt;</translation>
-    </message>
-    <message>
-        <location line="+41"/>
-        <source>&lt;a href=&quot;&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;&lt;/span&gt;&lt;/a&gt;</source>
-        <translation>&lt;a href=&quot;&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;&lt;/span&gt;&lt;/a&gt;</translation>
-    </message>
-    <message>
         <location filename="../src/anylink.cpp" line="+200"/>
         <source>Couldn&apos;t open log file</source>
         <translation>未能打开日志文件</translation>
