@@ -769,7 +769,7 @@
             <string/>
            </property>
            <property name="pixmap">
-            <pixmap resource="../icons.qrc">:/assets/donate.JPG</pixmap>
+            <pixmap resource="../icons.qrc">:/assets/anylink.png</pixmap>
            </property>
            <property name="scaledContents">
             <bool>true</bool>
