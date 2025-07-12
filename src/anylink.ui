@@ -688,7 +688,7 @@
            <item>
             <widget class="QLabel" name="label_16">
              <property name="text">
-              <string notr="true">&amp;copy; 2023 &lt;a href=&quot;https://anylink.pro&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://anylink.pro&lt;/span&gt;&lt;/a&gt;</string>
+              <string notr="true">&amp;copy; 2023 &lt;a href=&quot;&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;&lt;/span&gt;&lt;/a&gt;</string>
              </property>
              <property name="openExternalLinks">
               <bool>true</bool>
