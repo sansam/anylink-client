@@ -65,9 +65,9 @@ win32 {
     # https://doc.qt.io/qt-6/qmake-variable-reference.html#version
     #RC_FILE = resource.rc
     RC_ICONS = resource\windows\anylink.ico
-    QMAKE_TARGET_PRODUCT = "AnyLink Secure Client"
+    QMAKE_TARGET_PRODUCT = "Network Secure Client"
     QMAKE_TARGET_COMPANY = ""
-    QMAKE_TARGET_DESCRIPTION = "AnyLink Secure Client"
+    QMAKE_TARGET_DESCRIPTION = "Network Secure Client"
     QMAKE_TARGET_COPYRIGHT = ""
 
     DESTDIR = $$PWD/out/bin
