@@ -741,7 +741,6 @@
          <item>
           <widget class="QLabel" name="labelHelp">
            <property name="text">
-            <string>&lt;a href=&quot;https://github.com/tlslink/anylink-client/issues&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Getting Help&lt;/span&gt;&lt;/a&gt;</string>
            </property>
            <property name="textFormat">
             <enum>Qt::AutoText</enum>
@@ -782,7 +781,6 @@
          <item>
           <widget class="QLabel" name="labelUpdate">
            <property name="text">
-            <string>&lt;a href=&quot;https://github.com/tlslink/anylink-client/releases&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Check Updates&lt;/span&gt;&lt;/a&gt;</string>
            </property>
            <property name="openExternalLinks">
             <bool>true</bool>
