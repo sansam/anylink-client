@@ -14,20 +14,6 @@ jobs:
       matrix:
         build: [windows]
         include:
-        - build: linux-latest
-          os: ubuntu-22.04
-          qt: 6.8.1
-          arch: linux_gcc_64
-          qt-modules: 'qtwebsockets'
-          # qt-tools: 'tools_ifw'
-          installer-name: anylink-linux-amd64.run
-        - build: linux
-          os: ubuntu-20.04
-          qt: 6.4.3
-          arch: gcc_64
-          qt-modules: 'qtwebsockets'
-          # qt-tools: 'tools_ifw'
-          installer-name: anylink-linux-amd64.run
         - build: windows
           os: windows-2022
           qt: 6.6.2
@@ -35,20 +21,6 @@ jobs:
           qt-modules: 'qtwebsockets'
           qt-tools: 'tools_qtcreator'
           installer-name: anylink-windows10-amd64.exe
-        - build: macos
-          os: macos-latest
-          qt: 6.8.1
-          arch: clang_64
-          qt-modules: 'qtwebsockets'
-          # qt-tools: 'tools_ifw'
-          installer-name: anylink-installer
-        - build: macos-arm64
-          os: macos-latest
-          qt: 6.8.1
-          arch: clang_64
-          qt-modules: 'qtwebsockets'
-          # qt-tools: 'tools_ifw'
-          installer-name: anylink-installer
     steps:
     - if: startsWith(github.ref, 'refs/heads/')
       shell: bash
